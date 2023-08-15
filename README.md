@@ -11,7 +11,7 @@ Open http://localhost:8501/.
 ```bash
 cd app
 python -m venv env
-env/bin/activate
+source env/bin/activate
 pip install -r requirements.txt
 streamlit run home.py
 ```
